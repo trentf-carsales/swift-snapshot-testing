@@ -34,4 +34,6 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'ENABLE_BITCODE' => 'NO' }
 
   s.source_files  = "Sources", "Sources/**/*.swift"
+  s.static_framework = true
+
 end
